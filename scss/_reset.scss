@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+}
+
+// COLORS
+
+$dark-Cyan: hsl(158, 36%, 37%);
+$cream: hsl(30, 38%, 92%);
+$very-Dark-Blue: hsl(212, 21%, 14%);
+$dark-Grayish-Blue: hsl(228, 12%, 48%);
+$white: hsl(0, 0%, 100%);
+
+// FONTS
+
+$font-Fraunces: 'Fraunces', serif;
+$font-Montserrat: 'Montserrat', sans-serif;
+
+// FONT-WEIGHTS
+
+$medium: 500;
+$bold: 700;

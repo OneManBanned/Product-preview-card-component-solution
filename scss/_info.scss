@@ -1,0 +1,47 @@
+.info {
+    padding: 1.75rem;
+
+    &__product {
+        text-transform: uppercase;
+        font-family: $font-Montserrat;
+        font-weight: $medium;
+        color: $dark-Grayish-Blue;
+        font-size: .9rem;
+        letter-spacing: .3rem;
+        padding-bottom: 1rem;
+    }
+
+    &__name {
+        font-size: 2.15rem;
+        font-family: $font-Fraunces;
+        font-weight: $bold;
+        line-height: 2.25rem;
+        padding-bottom: 1.25rem;
+    }
+
+    &__paragraph {
+        color: $dark-Grayish-Blue;
+        font-family: $font-Montserrat;
+        font-size: .96rem;
+        line-height: 1.5rem;
+        padding-bottom: 3rem;
+        font-weight: $medium;
+    }
+
+    &__button {
+        width: 100%;
+        color: $white;
+        border: none;
+        height: 3.5rem;
+        border-radius: .5rem;
+        font-weight: $bold;
+        font-size: 1.15rem;
+        padding-left: 3.5rem;
+        background: 37% 45% url(/images/icon-cart.svg) no-repeat $dark-Cyan;
+        cursor: pointer;
+
+        &:hover {
+            background-color: hsl(158, 36%, 22%);
+        }
+    }
+}
