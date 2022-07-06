@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" href="./css/main.css">
+  <link rel="stylesheet" href="./dist/css/main.css">
 
   <title>Frontend Mentor | Product preview card component</title>
 
@@ -15,7 +15,10 @@
 <body>
   <main>
     <div class="advert">
-      <div class="advert__image"></div>
+      <div class="advert__image">
+        <img class="advert__image-desktop" src="./images/image-product-desktop.jpg" alt="bottle of perfume">
+        <img class="advert__image-mobile" src="./images/image-product-mobile.jpg" alt="bottle of perfume">
+      </div>
       <div class="advert__info info">
         <p class="info__product">Perfume</p>
 
